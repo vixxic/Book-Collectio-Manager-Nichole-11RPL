@@ -1,0 +1,94 @@
+.book-display-card {
+  width: 100%;
+  border: 1px solid rgb(97, 82, 53);
+  height: 30vw;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-cover-con {
+  display: flex;
+  position: relative;
+  flex: 1;
+
+  border-radius: 10px 10px 0 0;
+  background-color: white;
+}
+
+.book-cover-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px 10px 0 0;
+}
+
+.genre-title-in-cover-con {
+  position: absolute;
+
+  color: cornsilk;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.15) 30%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+
+  border-radius: 10px 10px 0 0;
+
+  width: 100%;
+  z-index: 5;
+  padding: 1.2vw;
+  box-sizing: border-box;
+}
+
+.genre-span {
+  background-color: white;
+  border-radius: 50px;
+  width: max-content;
+  color: black;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 0.1vw 0.5vw;
+  font-weight: 600;
+
+  font-size: 10px;
+}
+
+.book-preview-des-con {
+  background-color: #332b22;
+  border-radius: 0 0 10px 10px;
+
+  padding: 1.2vw;
+  box-sizing: border-box;
+}
+
+.book-preview-des-con p {
+  margin: 0;
+}
+
+.book-card-actions-con {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: space-between;
+
+  gap: 0.5vw;
+}
+
+.book-card-actions-con button {
+  background-color: transparent;
+  color: cornsilk;
+  border: 1px solid #928e87;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5vw;
+
+  border-radius: 10px;
+}

@@ -1,0 +1,111 @@
+#add-book-form-con {
+  position: fixed;
+  z-index: 100;
+}
+
+#add-book-form {
+  position: fixed;
+  z-index: 10000;
+  background-color: #332b22;
+  width: 30vw;
+  height: max-content;
+  left: 35%;
+  top: 10%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1.5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1vw;
+}
+
+h3 {
+  color: rgb(228, 228, 205);
+  margin: 0%;
+}
+
+.form-input-con {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+}
+
+.form-input-con label {
+  color: rgb(190, 183, 160);
+  font-size: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-input-con input {
+  background-color: #241c15;
+  border: 0.5px solid rgb(97, 82, 53);
+  padding: 0.5vw 1vw;
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: rgb(206, 198, 174);
+
+  font-size: 11px;
+}
+
+.horizontal {
+  display: flex;
+  gap: 1vw;
+}
+
+.img-preview-con {
+  display: flex;
+  gap: 1vw;
+}
+
+.img-preview-con .img-con {
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.5px solid rgb(97, 82, 53);
+  height: min-content;
+  min-height: 100px;
+}
+
+.img-preview-con .img-con img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-preview-con p {
+  margin: 0;
+  font-size: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(155, 137, 106);
+  flex: 1;
+}
+
+.add-book-form-btns-con {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  gap: 5px;
+}
+
+.add-book-form-btns-con button {
+  background-color: transparent;
+  border: 1px solid rgb(97, 82, 53);
+  color: rgb(201, 201, 191);
+  border-radius: 8px;
+  padding: 0.7vw 1.5vw;
+  font-size: 12px;
+}
+
+.add-book-form-btns-con .add-btn {
+  background-color: #dc9c86;
+  color: #332b22;
+  font-weight: bold;
+}
+
+.add-book-error {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

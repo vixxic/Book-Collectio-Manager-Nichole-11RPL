@@ -1,0 +1,24 @@
+body {
+  background-color: #241c15;
+  margin: 0%;
+}
+
+#book-aplication {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+hr {
+  border-color: rgb(255, 136, 0);
+}
+
+.modal-black-back {
+  position: fixed;
+  background-color: black;
+  z-index: 90;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
