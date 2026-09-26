@@ -60,6 +60,7 @@ function AddNewBookForm() {
     postNewBook(newBookData);
 
     setAddBookCliked(false);
+    setIsSomethingOpen(false);
   };
 
   const handleCloseForm = () => {
